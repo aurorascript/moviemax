@@ -1,5 +1,5 @@
 // ================== CONFIG ==================
-const API_KEY = "PUT_YOUR_TMDB_API_KEY_HERE"; // REQUIRED
+const API_KEY = "19c16dc16712241a21db54c85bb00dc4"; // REQUIRED
 const BASE_URL = "https://api.themoviedb.org/3";
 const IMG_URL = "https://image.tmdb.org/t/p/w500";
 
@@ -31,3 +31,4 @@ function loadTrending(type, containerId) {
         `;
 
         card.
+
