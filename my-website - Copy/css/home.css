@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #111;
+  color: #fff;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+  background: #000;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #e50914;
+  text-decoration: none;
+}
+
+.nav-links a {
+  margin-right: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.search-bar {
+  padding: 7px;
+  border-radius: 4px;
+  border: none;
+}
+
+/* BANNER */
+.banner {
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 30px;
+}
+
+.banner h1 {
+  font-size: 40px;
+  text-shadow: 0 0 10px #000;
+}
+
+/* ROW */
+.row {
+  padding: 20px;
+}
+
+.list {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+}
+
+.card img {
+  width: 150px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform .3s;
+}
+
+.card img:hover {
+  transform: scale(1.1);
+}
+
+/* MODAL */
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.9);
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-content {
+  background: #111;
+  padding: 20px;
+  width: 90%;
+  max-width: 800px;
+  border-radius: 8px;
+}
+
+.modal-body {
+  display: flex;
+  gap: 15px;
+}
+
+.modal-body img {
+  width: 150px;
+  border-radius: 6px;
+}
+
+.close {
+  font-size: 28px;
+  color: red;
+  cursor: pointer;
+  float: right;
+}
+
+iframe {
+  width: 100%;
+  height: 320px;
+  margin-top: 10px;
+  border: none;
+}
+
+/* SEARCH */
+.search-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: #000;
+  padding: 20px;
+  z-index: 1000;
+}
+
+#search-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.search-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.search-item img {
+  width: 50px;
+  border-radius: 4px;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #000;
+}
